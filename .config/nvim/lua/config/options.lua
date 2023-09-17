@@ -5,3 +5,5 @@
 local opt = vim.opt
 
 opt.showcmd = false -- show (partial) command in the last line of the screen
+
+opt.clipboard = nil -- use default register settings
