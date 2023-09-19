@@ -121,8 +121,8 @@ possible keymaps starting with `<space>`.
 
 | Key | Description | Mode |
 | --- | --- | --- |
-| <code>&lt;leader&gt;bx</code> | Delete Buffer | **n** |
-| <code>&lt;leader&gt;bX</code> | Delete Buffer (Force) | **n** |
+| <code>&lt;leader&gt;bd</code> | Delete Buffer | **n** |
+| <code>&lt;leader&gt;bD</code> | Delete Buffer (Force) | **n** |
 
 ## [mini.surround](https://github.com/echasnovski/mini.surround.git)
 
