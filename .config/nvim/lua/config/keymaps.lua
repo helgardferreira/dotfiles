@@ -18,4 +18,3 @@ vim.keymap.set("n", "<C-l>", ":TmuxNavigateRight<CR>", { desc = "Go to right win
 keymap.set("n", "<leader>bt", ":b<space>", { desc = "Go to buffer (either via number or name)", remap = true })
 keymap.set("n", "<leader>bk", ":%bd|e#|bd#<CR>", { desc = "Close all buffers except current" })
 keymap.set("n", "<leader>w\\", "<C-W>v", { desc = "Split window right", remap = true })
-keymap.set("n", "<leader>wx", "<cmd>close<CR>", { desc = "Close current window split", remap = true })
