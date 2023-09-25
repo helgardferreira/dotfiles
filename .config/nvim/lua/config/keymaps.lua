@@ -10,11 +10,14 @@ keymap.del("n", "<leader>-")
 keymap.del("n", "<leader>|")
 keymap.del("n", "<leader>w|")
 
-vim.keymap.set("n", "<C-h>", ":TmuxNavigateLeft<CR>", { desc = "Go to left window", remap = true })
-vim.keymap.set("n", "<C-j>", ":TmuxNavigateDown<CR>", { desc = "Go to lower window", remap = true })
-vim.keymap.set("n", "<C-k>", ":TmuxNavigateUp<CR>", { desc = "Go to upper window", remap = true })
-vim.keymap.set("n", "<C-l>", ":TmuxNavigateRight<CR>", { desc = "Go to right window", remap = true })
+keymap.set("n", "<C-h>", ":TmuxNavigateLeft<CR>", { desc = "Go to left window", remap = true })
+keymap.set("n", "<C-j>", ":TmuxNavigateDown<CR>", { desc = "Go to lower window", remap = true })
+keymap.set("n", "<C-k>", ":TmuxNavigateUp<CR>", { desc = "Go to upper window", remap = true })
+keymap.set("n", "<C-l>", ":TmuxNavigateRight<CR>", { desc = "Go to right window", remap = true })
 
 keymap.set("n", "<leader>bt", ":b<space>", { desc = "Go to buffer (either via number or name)", remap = true })
 keymap.set("n", "<leader>bk", ":%bd|e#|bd#<CR>", { desc = "Close all buffers except current" })
 keymap.set("n", "<leader>w\\", "<C-W>v", { desc = "Split window right", remap = true })
+
+keymap.set("n", "<leader>r", ":edit<CR>", { desc = "Re-edit file" })
+keymap.set("n", "<leader>R", ":edit!<CR>", { desc = "Re-edit file (force)" })
