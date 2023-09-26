@@ -77,6 +77,8 @@ possible keymaps starting with `<space>`.
 | <code>&lt;leader&gt;&lt;tab&gt;]</code> | Next Tab | **n** |
 | <code>&lt;leader&gt;&lt;tab&gt;d</code> | Close Tab | **n** |
 | <code>&lt;leader&gt;&lt;tab&gt;[</code> | Previous Tab | **n** |
+| <code>&lt;leader&gt;rr</code> | Re-edit file | **n** |
+| <code>&lt;leader&gt;rR</code> | Re-edit file (force) | **n** |
 
 ## LSP
 

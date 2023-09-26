@@ -19,5 +19,5 @@ keymap.set("n", "<leader>bt", ":b<space>", { desc = "Go to buffer (either via nu
 keymap.set("n", "<leader>bk", ":%bd|e#|bd#<CR>", { desc = "Close all buffers except current" })
 keymap.set("n", "<leader>w\\", "<C-W>v", { desc = "Split window right", remap = true })
 
-keymap.set("n", "<leader>r", ":edit<CR>", { desc = "Re-edit file" })
-keymap.set("n", "<leader>R", ":edit!<CR>", { desc = "Re-edit file (force)" })
+keymap.set("n", "<leader>rr", ":edit<CR>", { desc = "Re-edit file" })
+keymap.set("n", "<leader>rR", ":edit!<CR>", { desc = "Re-edit file (force)" })
