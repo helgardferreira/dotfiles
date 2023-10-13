@@ -6,6 +6,7 @@ return {
         tailwindcss = {
           filetypes_exclude = { "markdown" },
         },
+        cssls = {},
       },
       setup = {
         tailwindcss = function(_, opts)

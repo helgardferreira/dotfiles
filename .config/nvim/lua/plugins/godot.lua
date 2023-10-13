@@ -18,20 +18,10 @@ return {
         gdscript = {
           flags = {
             debounce_text_changes = 150,
-          }
+          },
         },
       },
     },
-  },
-  {
-    "nvimtools/none-ls.nvim",
-    config = function()
-      local null_ls = require("null-ls")
-      null_ls.register({
-        null_ls.builtins.diagnostics.gdlint,
-        null_ls.builtins.formatting.gdformat,
-      })
-    end,
   },
   {
     "habamax/vim-godot",
