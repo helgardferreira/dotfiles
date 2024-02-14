@@ -20,8 +20,6 @@ return {
     config = function()
       local ok, telescope = pcall(require, "telescope")
 
-      print("Haskell tools loaded")
-
       if ok then
         telescope.load_extension("ht")
       end
@@ -80,8 +78,6 @@ return {
     },
     config = function()
       local ok, telescope = pcall(require, "telescope")
-
-      print("Hoogle loaded")
 
       if ok then
         telescope.load_extension("hoogle")
