@@ -122,21 +122,13 @@ export NVM_DIR="$HOME/.nvm"
 # [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 export PATH="/Users/helgardferreira/Library/Python/3.9/bin:$PATH"
-alias godot4="/Applications/Godot.app/Contents/MacOS/Godot"
-alias godot="/Applications/Godot.app/Contents/MacOS/Godot"
 
 # pnpm
 export PNPM_HOME="/Users/helgardferreira/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-# export PATH_TO_FX=/Users/helgardferreira/Documents/javafx-sdk-21.0.1/lib
-# export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
-# export CPPFLAGS="-I/opt/homebrew/opt/openjdk@17/include"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# calibre tools
-export PATH="$PATH:/Applications/calibre.app/Contents/MacOS/"
 
 export PATH="$PATH:/Users/helgardferreira/.local/bin"
 
