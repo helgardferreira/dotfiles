@@ -1,6 +1,6 @@
 # import = ["~/.config/alacritty/themes/themes/palenight.toml"]
-# import = ["~/.config/alacritty/themes/themes/hyper.toml"]
-import = ["~/.config/alacritty/themes/themes/cyber_punk_neon.toml"]
+# import = ["~/.config/alacritty/themes/themes/cyber_punk_neon.toml"]
+import = ["~/.config/alacritty/themes/themes/hyper.toml"]
 
 [font]
 normal = { family = "MesloLGS NF", style = "Regular" }
@@ -12,5 +12,5 @@ bindings = [
 ]
 
 [window]
-opacity = 0.9
-padding = { y = 33 }
+opacity = 1
+padding = { y = 36 }
