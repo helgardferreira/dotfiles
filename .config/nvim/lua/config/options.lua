@@ -6,4 +6,5 @@ local opt = vim.opt
 
 opt.showcmd = false -- show (partial) command in the last line of the screen
 
-opt.clipboard = nil -- use default register settings
+opt.clipboard = ""
+-- opt.clipboard:append("unnamedplus") -- use system clipboard as default register
